@@ -5,8 +5,8 @@ based on the Tango desktop project, and this version stays true to that.
 
 ## Dark Version:
 
-![Tango Now](./screenshots/tabgo-now.jpg)
+![Tango Now](https://raw.githubusercontent.com/VernonGrant/tango-now-theme/main/screenshots/tango-now.jpg)
 
 ## Light Version:
 
-![Tango Now Light](./screenshots/tango-now-light.jpg)
+![Tango Now Light](https://raw.githubusercontent.com/VernonGrant/tango-now-theme/main/screenshots/tango-now-light.jpg)
