@@ -25,11 +25,28 @@
 
 ;;; Commentary:
 
+;; Based on the Tango Desktop Project's colors:
+;;
+;; Butter         #fce94f  #edd400  #c4a000
+;; Orange         #fcaf3e  #f57900  #ce5c00
+;; Chocolate      #e9b96e  #c17d11  #8f5902
+;; Chameleon      #8ae234  #73d216  #4e9a06
+;; Sky Blue       #729fcf  #3465a4  #204a87
+;; Plum           #ad7fa8  #75507b  #5c3566
+;; Scarlet Red    #ef2929  #cc0000  #a40000
+;; Aluminium      #eeeeec  #d3d7cf  #babdb6
+;; Aluminium Dark #888a85  #555753  #2e3436
+;;
+;; To use, add this to your Emacs configuration file:
+;;
+;; (load-theme 'tango-now t)
+;;
+
 ;;; Code:
 
 (deftheme tango-now)
 (let ((class '((class color) (min-colors 89)))
-	  (fg1 "#eeeeec")      ;; Aluminium
+      (fg1 "#eeeeec")      ;; Aluminium
       (fg2 "#dbdbd9")
       (fg3 "#c8c8c6")
       (fg4 "#b5b5b3")
@@ -47,7 +64,7 @@
       (var     "#fcaf3e")  ;; Orange
       (warning "#ef2929")  ;; Scarlet Red
       (warning2 "#f57900") ;; Orange Mid
-	  )
+      )
   (custom-theme-set-faces
    'tango-now
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
