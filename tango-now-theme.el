@@ -3,7 +3,7 @@
 ;; Copyright (C) 2022 , Vernon Grant
 
 ;; Author: Vernon Grant
-;; Version: 0.1
+;; Version: 1.0
 ;; Package-Requires: ((emacs "24"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
